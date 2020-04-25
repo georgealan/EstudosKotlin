@@ -46,10 +46,7 @@ dependencies {
 
     // JUnit 5 Jupiter Engine
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.6.1")
-    implementation 'org.junit.jupiter:junit-jupiter'
-    implementation 'org.junit.jupiter:junit-jupiter'
     implementation 'junit:junit:4.12'
-    implementation 'org.junit.jupiter:junit-jupiter'
 }
 
 compileKotlin {
