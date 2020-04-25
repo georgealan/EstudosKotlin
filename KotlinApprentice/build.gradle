@@ -28,6 +28,28 @@ repositories {
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+
+    // REST Assured JSON Path
+    testImplementation("io.rest-assured:json-path:4.0.0")
+
+    // REST Assured XML Path
+    testImplementation("io.rest-assured:xml-path:4.0.0")
+
+    // REST Assured test
+    testImplementation("io.rest-assured:rest-assured:4.0.0")
+
+    // JSON Web token test JWT
+    testImplementation("io.jsonwebtoken:jjwt:0.6.0")
+
+    // JUnit 5 Jupiter API
+    testImplementation("org.junit.jupiter:junit-jupiter-api:5.6.1")
+
+    // JUnit 5 Jupiter Engine
+    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.6.1")
+    implementation 'org.junit.jupiter:junit-jupiter'
+    implementation 'org.junit.jupiter:junit-jupiter'
+    implementation 'junit:junit:4.12'
+    implementation 'org.junit.jupiter:junit-jupiter'
 }
 
 compileKotlin {
